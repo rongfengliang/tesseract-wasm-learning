@@ -1,0 +1,16 @@
+{
+  "name": "tesseract",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "tesseract-wasm": "^0.10.0"
+  },
+  "devDependencies": {
+    "vite": "^4.5.0"
+  },
+  "scripts": {
+    "dev":"vite --force",
+    "build":"vite build"
+  }
+}
